@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingRequiredAttributes", "UsingRequiredAttributes\UsingRequiredAttributes.csproj", "{187E978B-1F1A-4282-BB70-14B6611EC8C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMocks", "UsingMocks\UsingMocks.csproj", "{200EB5D4-058A-42BB-896B-0854F8E113CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingMocks", "UsingMocks\UsingMocks.csproj", "{200EB5D4-058A-42BB-896B-0854F8E113CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreventingAsyncVoidCrashes", "PreventingAsyncVoidCrashes\PreventingAsyncVoidCrashes.csproj", "{6BE61AEA-56BD-4974-891A-A58470B0B12E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{200EB5D4-058A-42BB-896B-0854F8E113CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200EB5D4-058A-42BB-896B-0854F8E113CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{200EB5D4-058A-42BB-896B-0854F8E113CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE61AEA-56BD-4974-891A-A58470B0B12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE61AEA-56BD-4974-891A-A58470B0B12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE61AEA-56BD-4974-891A-A58470B0B12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE61AEA-56BD-4974-891A-A58470B0B12E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
