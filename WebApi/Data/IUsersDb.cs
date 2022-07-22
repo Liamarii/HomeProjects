@@ -10,6 +10,6 @@ namespace WebApi.Data
 
         public HttpResponseMessage Get(Guid guid);
 
-        public HttpResponseMessage Insert(UserDto user);
+        public HttpResponseMessage Insert(UserDto userDto);
     }
 }

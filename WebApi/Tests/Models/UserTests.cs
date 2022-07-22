@@ -24,10 +24,10 @@ namespace WebApi.Tests
             User user = _sut.ToUser(userDto);
 
             //Assert
-            Assert.Equal(user.Forename, userDto.Forename);
-            Assert.Equal(user.Surname, userDto.Surname);
-            Assert.Equal(user.Age, userDto.Age);
-            Assert.True( user.Id.GetType() == typeof(Guid));
+            Assert.Equal(user?.Forename, userDto.Forename);
+            Assert.Equal(user?.Surname, userDto.Surname);
+            Assert.Equal(user?.Age, userDto.Age);
+            Assert.True( user?.Id is Guid);
         }
     }
 }
