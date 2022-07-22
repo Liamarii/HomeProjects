@@ -430,7 +430,5 @@ namespace WebApi.Tests
             await Assert.ThrowsAsync<Exception>(() => _sut.Insert(new UserDto()));
         }
         #endregion
-
-        //TODO: Check for invalid server error output types
     }
 }
